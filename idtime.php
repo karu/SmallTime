@@ -29,7 +29,7 @@ Sie werden nach 2 Sekunden automatisch weitergeleitet.
 	//          ID-Verfahren weist Sicherheitsmängel auf: Jeder, dem das "secret"
 	//          sowie der Passwort-SHA-1 bekannt ist, kann die ID nachbilden!
 	//          Wenn das "secret" hier geändert wird, muss es auch in
-	//          ./include/idtime-generate.php angepasst werden!
+	//          ./modules/sites_admin/admin04_idtime_generate.php angepasst werden!
 	//
 	$idtime_secret = 'CHANGEME'; // [./0-9A-Za-z] Mehr als 21 Zeichen führen dazu, dass das Benutzer-Passwort nicht mehr in die ID-Generierung einfliesst.	
 	// -----------------------------------------------------------------------------
